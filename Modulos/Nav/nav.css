@@ -6,6 +6,10 @@
                                                 
 }
 
+/* colores: 
+#e43d4c
+#ffe28c
+*/
 
 /* -------------------------NAV MAMALON --------------------- */
 
@@ -19,7 +23,7 @@ nav{
   position: fixed;
 }
   
-#marco-nav {
+#frame-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -83,7 +87,7 @@ nav{
 #menuX-img{
   display: none;
 }
-#nav-oculto{
+#hidden-nav{
   margin-top: 21rem;
   position: fixed;
   display: flex;
@@ -97,13 +101,18 @@ nav{
   visibility: hidden;
   transition: opacity 1s ease, visibility 1s ease;
 }
-#nav-oculto.mostrar{
+#hidden-nav.show{
   opacity: 1;
   visibility: visible; 
 }
-#nav-oculto a{
+#hidden-nav a{
   font-size: 1.4rem;
   color: #e43d4c;
+  padding: 1rem 100% 1rem 100%;
+} 
+
+#hidden-nav a:hover{
+  background-color: #ffdb70;
 } 
 
 @media (max-width: 550px) {
