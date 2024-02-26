@@ -16,6 +16,7 @@ body{
   font-size: 16px;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background: url('../Login/backgroundLoginjpg.jpg') no-repeat;
   background-size: cover;
@@ -43,8 +44,9 @@ header{
 
 .navegation{
   position: relative;
-
 }
+
+
 
 .btnLogin{
   width: 10rem;
@@ -54,7 +56,7 @@ header{
   border: 2px solid aliceblue;
   font-size: 1.8rem;
   font-weight: 500;
-  border-radius: 0.8 b rem;
+  border-radius: 0.8rem;
   padding: 3px;
   cursor: pointer;
   transition: 0.5s;
