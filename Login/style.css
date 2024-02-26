@@ -17,7 +17,10 @@ body{
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: url('../');
+  background: url('../Login/backgroundLoginjpg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 
 header{
@@ -26,7 +29,7 @@ header{
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: rgb(113, 186, 211);
+  /* background: rgb(113, 186, 211); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,19 +47,20 @@ header{
 }
 
 .btnLogin{
-  width: 120px;
-  height: 3rem;
+  width: 10rem;
+  height: 5rem;
   background-color: transparent;
   color: aliceblue;
   border: 2px solid aliceblue;
   font-size: 1.8rem;
-  border-radius: 1rem;
-  padding: 2.5px;
+  font-weight: 500;
+  border-radius: 0.8 b rem;
+  padding: 3px;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .btnLogin:hover{
   background-color: aliceblue;
-  color: rgb(113, 186, 211);
+  color: red;
 }
