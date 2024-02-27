@@ -66,3 +66,32 @@ header{
   background-color: aliceblue;
   color: red;
 }
+
+.wrapper{
+  position: relative;
+  width: 40rem;
+  height: 44rem;
+  background: transparent;
+  border: 3px solid  whitesmoke;
+  border-radius: 2rem;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 3rem rgb(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  
+
+}
+
+.wrapper .form-box{
+  width: 100%;
+
+}
+
+.form-box h2{
+  font-size: 3.5rem;
+}
+
+
+
