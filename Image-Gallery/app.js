@@ -43,7 +43,7 @@ loadFooter.innerHTML = `
 
 const nave = document.querySelector('nav');
 nave.innerHTML = `
-<div id="logo">
+<div id="logo"> 
 <a href="#">
   <img src="../Modulos/Nav/Burguer-removebg-preview.png" alt="logo"/> 
 </a>

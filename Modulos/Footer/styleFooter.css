@@ -25,52 +25,55 @@ body {
 
 footer {
   width: 100%;
-  height: auto;
+  height: 16vh;
   background-color: rgba(0, 0, 0, 0.808);
   border-top-left-radius: 4rem;
   border-top-right-radius: 4rem;
 }
-
+/* 
 .frame-footer {
-  width: 100%;
+  width: 100vw;
   height: 12.5rem;
-}
+} */
 
 .frame-heigher {
   width: 100vw;
-  height: max-content;
+  height: 12vh;
   display: flex;
   border-bottom: whitrige solid 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .frame-left {
-  width: 70vw;
+  width: 60vw;
   height: min-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-content: center; */
   /* margin-bottom: 1rem; */
   /* margin-top: 0.5rem; */
   /* border: 3px solid green; */
 }
 
 .listFooter {
-  padding: 0;
-  width: 50%;
-  align-items: center
-    /* justify-content: center; */
-    /* display: flex; */
-    /* text-align: center */
-  ;
-  margin-right: 2rem;
-  border: 3px solid rgb(229, 229, 229);
+  /* padding: 0px; */
+  width: 60%;
+  align-items: center;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* text-align: center */
+  /* margin-right: 2rem; */
+  /* border: 3px solid rgb(229, 229, 229); */
 }
 
 .listFooter ul {
-  border: 3px solid rgb(229, 229, 229);
+  /* border: 3px solid rgb(229, 229, 229); */
   display: flex;
   /* flex-direction: row; */
-  justify-content: center;
+  /* justify-content: center; */
   /* margin-left: 2rem; */
 
 }
@@ -86,7 +89,7 @@ footer {
 
 .frame-left ul li a {
   color: aliceblue;
-  padding: 3px 6px;
+  /* padding: 3px 6px; */
   border: solid 2px transparent;
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
@@ -103,53 +106,56 @@ footer {
 
 .log {
   /* margin-left: 2rem; */
-  width: 50%;
-  height: min-content;
+  width: 40%;
+  height: max-content;
   display: flex;
-  gap: 1rem;
+  gap: 0.2rem;
   justify-content: center;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   color: white;
   align-items: center;
+  /* border: solid 2px gold; */
 }
 
-.log h2{
+.log h2 {
   width: auto;
-  font-size: 15px;
+  font-size: 1.8rem;
   height: auto;
 }
 
 .log img {
-  width: 30%;
-  margin-right: 0
-  ;
+  width: 25%;
+  max-width: 100px;
+  margin-right: 0;
   transform: scaleX(1);
   transform: scaleY(1);
 }
 
 .frame-right {
-  width: 30vw;
+  width: 40vw;
+  /* border: 3px solid green; */
+  
 }
 
 .right-low {
-  height: 70%;
   width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: row;
-  border: 3px solid green;
-
-
   align-items: center;
   justify-content: center;
-  height: 100%;
   gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .right-low button {
-
-  padding: 1px 1rem;
+  width: auto;
+  padding: 0.5px 0.5rem;
   border-radius: 1rem;
+  font-size: 1.8rem;
   background-color: rgb(202, 200, 198);
+  border: 1px solid rgb(255, 255, 255);
+
 }
 
 .right-low button:hover {
@@ -163,7 +169,7 @@ footer {
 }
 
 .right-low button a:hover {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .red {
@@ -172,9 +178,6 @@ footer {
   /* height: 100%; */
   display: flex;
   justify-content: center;
-  border: 2px solid gold;
-
-  /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -184,11 +187,11 @@ footer {
 }
 
 .red img {
-  width: 10px;
+  width: 30px;
   height: auto;
   border-radius: 2rem;
   background-color: rgb(48, 56, 54);
-  padding: 5px 5px;
+  /* padding: 5px 5px; */
 }
 
 .red .f,
@@ -197,9 +200,11 @@ footer {
 }
 
 .frame-lower {
-  height: 20%;
+  height: 4vh;
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .frame-lower p {
