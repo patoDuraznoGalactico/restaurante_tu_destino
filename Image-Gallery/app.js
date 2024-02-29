@@ -1,45 +1,48 @@
 
-const loadFooter =document.querySelector('.loadFooter')
-loadFooter.innerHTML=`
+const loadFooter = document.querySelector('.loadFooter')
+loadFooter.innerHTML = `
 <footer id="footer">
-<div class="frame-footer">
-    <div class="frame-heigher">
-        <div class="frame-left">
-            <div class="log">
-                <img src="../../Gallery/lgo-removebg-preview.png" alt="Logo de Tu Destino">
-                <h2>Tu Destino</h2>
-            </div>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><p class="l">/</p></li>
-                <li><a href="#">Galleria</a></li>
-            </ul>
-        </div>
-        <div class="frame-right">
-            <div class="right-low">
-                <button id="loginEnd"><a href="#">Cerrar Sesión</a></button>
-                <div class="red">
-                   <a href="#"><img class="f" src="../../Gallery/facebook.png" alt=""></a>
-                    <a href="#"><img class="w" src="../../Gallery/whatsapp.png" alt=""></a>
-                    <a href="#"><img class="i" src="../../Gallery/instagram.png" alt=""></a>
-                    <a href="#"><img src="../../Gallery/lgo-removebg-preview.png" alt=""></a>
+        <div class="frame-footer">
+            <div class="frame-heigher">
+                <div class="frame-left">
+                    <div class="log">
+                        <img src="../../Gallery/lgo-removebg-preview.png" alt="Logo de Tu Destino">
+                        <h2>Tu Destino</h2>
+                    </div>
+                    <div class="listFooter">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">/</a></li>
+                            <li><a href="#">Galleria</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="frame-right">
+                    <div class="right-low">
+                        <button id="loginEnd"><a href="#">Cerrar Sesión</a></button>
+                        <div class="red">
+                            <a href="#"><img class="f" src="../../Gallery/facebook.png" alt=""></a>
+                            <a href="#"><img class="w" src="../../Gallery/whatsapp.png" alt=""></a>
+                            <a href="#"><img class="i" src="../../Gallery/instagram.png" alt=""></a>
+                            <a href="#"><img src="../../Gallery/lgo-removebg-preview.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="frame-lower">
+                <p> © 2024 Tu Destino S.A.S Todos los derechos reservados</p>
+                <p class="l">/</p>
+                <a href="#">Terminos y Condiciones</a>
+                <p class="l">/</p>
+                <a href="#">Terminos de Web</a>
+            </div>
         </div>
-    </div>
-    <div class="frame-lower">
-        <p> © 2024 Tu Destino S.A.S Todos los derechos reservados</p>
-        <p class="l">/</p>
-        <a href="#">Terminos y Condiciones</a>
-        <p class="l">/</p>
-        <a href="#">Terminos de Web</a>
-    </div>
-</div>
-</footer>
+    </footer>
 `
 
-const nave =document.querySelector('nav');
-nave.innerHTML=`
+const nave = document.querySelector('nav');
+nave.innerHTML = `
 <div id="logo">
 <a href="#">
   <img src="../Modulos/Nav/Burguer-removebg-preview.png" alt="logo"/> 
